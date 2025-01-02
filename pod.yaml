@@ -26,9 +26,9 @@ spec:
     metadata:
       labels:
         app: hello
-  spec:
-    containers:
-      - name: hello
-        image: alvinselva/alvink8simage:latest
-        imagePullPolicy: Always
+    spec:
+      containers:
+        - name: hello
+          image: alvinselva/alvink8simage:latest
+          imagePullPolicy: Always
 
